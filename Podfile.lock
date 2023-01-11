@@ -2,24 +2,24 @@ PODS:
   - AWSCore (2.29.1)
   - AWSS3 (2.29.1):
     - AWSCore (= 2.29.1)
-  - VeryfiLens-Receipts (2.0.2.1):
+  - VeryfiLens (2.0.2.1):
     - AWSS3
 
 DEPENDENCIES:
-  - VeryfiLens-Receipts (= 2.0.2.1)
+  - VeryfiLens (= 2.0.2.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AWSCore
     - AWSS3
   https://repo.veryfi.com/shared/lens/veryfi-lens-podspec.git:
-    - VeryfiLens-Receipts
+    - VeryfiLens
 
 SPEC CHECKSUMS:
   AWSCore: aa4a494c8bbcefe97723621fa51cfb1fad15fbd1
   AWSS3: 15772b138d1f82a2b904d088881fb867ef58cd8c
-  VeryfiLens-Receipts: 1fdd43341b942a7497a776981bea9e378ba85fef
+  VeryfiLens: b7aa80a2b8d171eb74758cc31187df174fea0e9f
 
-PODFILE CHECKSUM: 379c9d18d4bc970fcaf79995b29f126bd77d201b
+PODFILE CHECKSUM: 82d11e72641a8cb3fc40c7d631dc89dd1da22fa0
 
 COCOAPODS: 1.11.3

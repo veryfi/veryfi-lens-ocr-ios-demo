@@ -67,6 +67,10 @@ enum Keys: String {
     case customers
     case tags
     case categoriesList
+    case ocrViewCornerRadius
+    case ocrViewHeight
+    case ocrViewWidth
+    case ocrRegex
 }
 
 enum Types {
