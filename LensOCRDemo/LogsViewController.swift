@@ -55,25 +55,33 @@ class LogsViewController: UIViewController {
 extension LogsViewController: VeryfiLensDelegate {
     func veryfiLensClose(_ json: [String : Any]) {
         if let string = string(from: json) {
-            logsTextView.text.append("\n\(string)")
+            DispatchQueue.main.async {
+                self.logsTextView.text.append("\n\(string)")
+            }
         }
     }
     
     func veryfiLensError(_ json: [String : Any]) {
         if let string = string(from: json) {
-            logsTextView.text.append("\n\(string)")
+            DispatchQueue.main.async {
+                self.logsTextView.text.append("\n\(string)")
+            }
         }
     }
     
     func veryfiLensSuccess(_ json: [String : Any]) {
         if let string = string(from: json) {
-            logsTextView.text.append("\n\(string)")
+            DispatchQueue.main.async {
+                self.logsTextView.text.append("\n\(string)")
+            }
         }
     }
     
     func veryfiLensUpdate(_ json: [String : Any]) {
         if let string = string(from: json) {
-            logsTextView.text.append("\n\(string)")
+            DispatchQueue.main.async {
+                self.logsTextView.text.append("\n\(string)")
+            }
         }
     }
 }
