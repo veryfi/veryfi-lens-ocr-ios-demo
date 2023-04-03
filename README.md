@@ -38,7 +38,7 @@ Install from our private [Cocoapods](https://hub.veryfi.com/api/settings/keys).
 
 Add in your project Podfile file the Veryfi Lens OCR iOS SDK dependency:
 ```ruby
-pod 'VeryfiLens', '2.0.8.1'
+pod 'VeryfiLens', '2.0.10.1'
 ```
 
 ## How to run this project <a name="configuration"></a>
