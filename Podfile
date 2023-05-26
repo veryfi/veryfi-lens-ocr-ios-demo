@@ -8,5 +8,5 @@ target 'LensOCRDemo' do
   use_frameworks!
 
   # Pods for LensOCRDemo
-  pod 'VeryfiLens-OCR', '2.1.3.2'
+  pod 'VeryfiLens-OCR', '2.1.4.2'
 end
