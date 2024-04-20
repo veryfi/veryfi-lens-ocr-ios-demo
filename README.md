@@ -32,6 +32,9 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 ## Veryfi Lens OCR iOS Example <a name="example"></a>
 This is an example of how to use Veryfi Lens OCR in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/ios/).
 
+![OCR](https://github.com/veryfi/veryfi-lens-ocr-ios-demo/assets/2013102/81c92d8c-445d-4035-97fa-cad2955c3854)
+
+
 ## How to add Veryfi Lens OCR to your project <a name="cocoapods"></a>
 
 Install from our private [Cocoapods](https://hub.veryfi.com/api/settings/keys).
