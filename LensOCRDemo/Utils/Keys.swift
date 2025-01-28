@@ -71,6 +71,7 @@ enum Keys: String {
     case ocrViewHeight
     case ocrViewWidth
     case ocrRegex
+    case ignoreRemoteSettings
 }
 
 enum Types {
